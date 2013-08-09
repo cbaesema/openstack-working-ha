@@ -1,0 +1,11 @@
+build-server           2
+control-server         3
+compute-server01       4
+swift-proxy            5
+swift-storage01        6
+swift-storage02        7
+swift-storage03        8
+ceph-mon01             9
+ceph-osd01             10
+ceph-osd02             11
+ceph-osd03             12
