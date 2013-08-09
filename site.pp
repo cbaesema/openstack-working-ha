@@ -662,7 +662,7 @@ node 'swift02' inherits os_base {
     swift_zone         => '2',
     swift_local_net_ip => $swift02_local_net_ip,
     storage_type       => 'disk',
-    storage_devices    => ['sdb''],
+    storage_devices    => ['sdb'],
     byte_size          => '2048',
     swift_hash_suffix  => $swift_hash,
   }
