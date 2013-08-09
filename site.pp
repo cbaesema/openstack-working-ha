@@ -638,6 +638,7 @@ node 'swift01' inherits os_base {
     byte_size          => '2048',
     swift_hash_suffix  => $swift_hash,
   }
+}
 
 node 'swift02' inherits os_base {
 
@@ -666,6 +667,7 @@ node 'swift02' inherits os_base {
     byte_size          => '2048',
     swift_hash_suffix  => $swift_hash,
   }
+}
 
 node 'swift03' inherits os_base {
 
