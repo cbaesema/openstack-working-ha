@@ -3,7 +3,7 @@
 import sys,os
 
   
-base_dir = "/opt/openstack-working"
+base_dir = "/opt/openstack-working-ha"
 node_file = base_dir + "/nodes.txt"
 domain_file = base_dir + "/domain.txt"
 
