@@ -274,7 +274,7 @@ $cinder_storage_driver         = 'iscsi'
 
 # The build node name is changed in the "node type" section further down
 # in the file. This line should not be changed here.
-node 'build-node' inherits master-node {
+node 'build-server' inherits master-node {
 
 # This block defines the control server. Replace "control-server" with the 
 # host name of your OpenStack controller, and change the "mac" to the MAC 
