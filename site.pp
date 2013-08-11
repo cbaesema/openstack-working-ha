@@ -36,7 +36,7 @@ $build_node_name        = "build-os"
 # to the build server.  The build server will synchronize with this time
 # server, and will in turn function as the time server for your OpenStack
 # nodes.
-$ntp_servers	= ["time.ntp.org"]
+$ntp_servers	= ["pool.ntp.org"]
 
 ########### Build Node Cobbler Variables ############
 # Change these 5 parameters to define the IP address and other network 
