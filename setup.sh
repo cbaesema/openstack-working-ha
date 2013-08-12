@@ -40,19 +40,6 @@ rm -rf /usr/share/puppet/modules/openstack-ha
 mkdir /usr/share/puppet/modules/openstack-ha
 cp -r /opt/puppet-openstack-ha/* /usr/share/puppet/modules/openstack-ha
 
-rm -rf /opt/puppet-boolean
-git clone http://github.com/adrienthebo/puppet-boolean
-rm -rf /usr/share/puppet/modules/boolean
-mkdir /usr/share/puppet/modules/boolean
-cp -r /opt/puppet-boolean/* /usr/share/puppet/modules/boolean
-
-rm -rf /opt/puppet-filemapper
-git clone http://github.com/adrienthebo/puppet-filemapper
-rm -rf /usr/share/puppet/modules/filemapper
-mkdir /usr/share/puppet/modules/filemapper
-cp -r /opt/puppet-filemapper/* /usr/share/puppet/modules/filemapper
-
-
 cp /opt/openstack-working-ha/modules.list /etc/puppet/manifests
 
 cp /opt/openstack-working-ha/bin/* /usr/sbin
