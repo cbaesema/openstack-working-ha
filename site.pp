@@ -29,7 +29,7 @@ $location 		= "ftp://ftpeng.cisco.com/openstack/cisco"
 # Change the following to the host name you have given your build node.
 # This name should be in all lower case letters due to a Puppet limitation
 # (refer to http://projects.puppetlabs.com/issues/1168).
-$build_node_name        = "build-os"
+$build_node_name        = "build-server"
 
 ########### NTP Configuration ############
 # Change this to the location of a time server in your organization accessible
