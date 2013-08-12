@@ -14,11 +14,11 @@ git clone http://github.com/CiscoSystems/grizzly-manifests -b g-ha-wip
 cp /opt/grizzly-manifests/manifests/* /etc/puppet/manifests
 cp /opt/grizzly-manifests/templates/* /etc/puppet/templates
 
-#rm -rf /opt/puppet-augeas
-#git clone http://github.com/camptocamp/puppet-augeas
-#rm -rf /usr/share/puppet/modules/augeas
-#mkdir /usr/share/puppet/modules/augeas
-#cp -r /opt/puppet-augeas/* /usr/share/puppet/modules/augeas
+rm -rf /opt/puppet-augeas
+git clone http://github.com/camptocamp/puppet-augeas
+rm -rf /usr/share/puppet/modules/augeas
+mkdir /usr/share/puppet/modules/augeas
+cp -r /opt/puppet-augeas/* /usr/share/puppet/modules/augeas
 
 rm -rf /opt/puppet-galera
 git clone http://github.com/CiscoSystems/puppet-galera
