@@ -15,14 +15,12 @@ graphite
 haproxy
 horizon
 inifile
-keystone
 memcached
 mysql
 naginator
 network
 nova
 ntp
-openstack
 pip
 puppet
 quantum
